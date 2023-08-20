@@ -1,4 +1,4 @@
-# Random string generator for PHP
+# Random string generator for PHP 8.0
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/stfn/php-random-string.svg?style=flat-square)](https://packagist.org/packages/stfn/php-random-string)
 [![Tests](https://img.shields.io/github/actions/workflow/status/stfndamjanovic/php-random-string/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/stfndamjanovic/php-random-string/actions/workflows/run-tests.yml)
