@@ -1,6 +1,6 @@
 <?php
 
-namespace forever2077\RandomString;
+namespace Forever2077\RandomString;
 
 use Exception;
 

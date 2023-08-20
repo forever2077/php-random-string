@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace forever2077\RandomString;
+namespace Forever2077\RandomString;
 
 use Closure;
 
