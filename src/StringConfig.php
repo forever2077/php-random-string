@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Stfn\RandomString;
+namespace forever2077\RandomString;
 
 use Closure;
 
@@ -31,7 +31,7 @@ class StringConfig
     public function __construct($length = 16)
     {
         $this->length = $length;
-        $this->charset = self::CHARSET_LOWERCASE.self::CHARSET_UPPERCASE.self::CHARSET_NUMERIC;
+        $this->charset = self::CHARSET_LOWERCASE . self::CHARSET_UPPERCASE . self::CHARSET_NUMERIC;
     }
 
     public static function make($length = 16): self

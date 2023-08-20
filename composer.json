@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Stfn\\RandomString\\": "src"
+            "forever2077\\RandomString\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stfn\\RandomString\\Tests\\": "tests"
+            "forever2077\\RandomString\\Tests\\": "tests"
         }
     },
     "scripts": {

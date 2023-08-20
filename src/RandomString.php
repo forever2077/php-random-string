@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Stfn\RandomString;
+namespace forever2077\RandomString;
 
 class RandomString
 {
@@ -62,7 +62,7 @@ class RandomString
                 $string .= $charset[ord($randomBytes[$j]) % $charsetLength];
             }
 
-            $string = $this->config->getPrefix().$string.$this->config->getSuffix();
+            $string = $this->config->getPrefix() . $string . $this->config->getSuffix();
 
             if ($this->shouldSkip($string)) {
                 $i--;
@@ -124,7 +124,7 @@ class RandomString
 
     protected function skipString(string $string): void
     {
-        if (! in_array($string, $this->skipped)) {
+        if (!in_array($string, $this->skipped)) {
             $this->skipped[] = $string;
         }
     }
